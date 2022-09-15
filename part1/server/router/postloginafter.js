@@ -4,8 +4,8 @@ module.exports = function(req, res) {
     let userobj = {
         "userid": req.body.userid,
         "username": req.body.username,
-        "userbirthdate": req.body.userbirthdate,
-        "userage": req.body.userage
+        "role": req.body.role,
+        
     }
     let uArray = [];
     fs.readFile('./data/extendedUsers.json', 'utf8', function(err, data) {
