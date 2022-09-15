@@ -1,0 +1,5 @@
+[
+    {"userid":1,"username":"k.su@griffith.edu.au","role":"superadmin"},
+    {"userid":2,"username":"kailepku@gmail.com","role":"groupadmin"},
+    {"userid":3,"username":"ttt","role":"groupAssis"}
+]
